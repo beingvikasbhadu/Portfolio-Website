@@ -128,31 +128,31 @@ var typed = new Typed(".typing-text", {
 //     projectsContainer.innerHTML = projectHTML;
 
     // <!-- tilt js effect starts -->
-    VanillaTilt.init(document.querySelectorAll(".tilt"), {
-        max: 15,
-    });
-    // <!-- tilt js effect ends -->
+//     VanillaTilt.init(document.querySelectorAll(".tilt"), {
+//         max: 15,
+//     });
+//     // <!-- tilt js effect ends -->
 
-    /* ===== SCROLL REVEAL ANIMATION ===== */
-    const srtop = ScrollReveal({
-        origin: 'top',
-        distance: '80px',
-        duration: 1000,
-        reset: true
-    });
+//     /* ===== SCROLL REVEAL ANIMATION ===== */
+//     const srtop = ScrollReveal({
+//         origin: 'top',
+//         distance: '80px',
+//         duration: 1000,
+//         reset: true
+//     });
 
-    /* SCROLL PROJECTS */
-    srtop.reveal('.work .box', { interval: 200 });
+//     /* SCROLL PROJECTS */
+//     srtop.reveal('.work .box', { interval: 200 });
 
-}
+// }
 
-fetchData().then(data => {
-    showSkills(data);
-});
+// fetchData().then(data => {
+//     showSkills(data);
+// });
 
-fetchData("projects").then(data => {
-    showProjects(data);
-});
+// fetchData("projects").then(data => {
+//     showProjects(data);
+// });
 
 // <!-- tilt js effect starts -->
 VanillaTilt.init(document.querySelectorAll(".tilt"), {
